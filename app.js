@@ -18,8 +18,7 @@ const userCollection = client
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static("public"));
 
-const mongoUrl = `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_HOST}/?retryWrites=true`;
-
+const mongoUrl = `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_HOST}/?retryWrites=true&w=majority`;
 app.use(
   session({
     secret: process.env.NODE_SESSION_SECRET,
