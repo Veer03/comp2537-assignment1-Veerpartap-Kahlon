@@ -11,3 +11,7 @@ async function connectToDatabase() {
 connectToDatabase().catch(console.error);
 
 module.exports = { client };
+async function connectToDatabase() {
+  await client.connect();
+  console.log("Connected to MongoDB");
+}
