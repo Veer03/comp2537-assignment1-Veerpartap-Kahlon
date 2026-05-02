@@ -1,2 +1,2 @@
 # comp2537-w26-assignment1-Veerpartap-Kahlon
-assignment 1 comp-2537
+BCIT_assignment 1_comp-2537
