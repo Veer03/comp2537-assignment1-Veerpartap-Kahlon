@@ -1,19 +1,21 @@
-# comp2537-w26-assignment1-Veerpartap-Kahlon
+Self-graded Assignment 1 Checklist
 
-assignment 1 comp-2537
-
-Student Name: Veerpartap Kahlon
-Student Set: [1B]
+    Criteria
+    ========
 
 [x] A home page links to signup and login, if not logged in; and links to members and signout, if logged in.
-[x] A members only page that displays 1 of 3 random images stored on the server.
-[x] The members only page will redirect to the home page if no valid session is found.
+[x] A members page that displays 1 of 3 random images stored on the server.
+[x] The members page will redirect to the home page if no valid session is found.
 [x] The signout buttons end the session.
-[x] A 404 page that catches all invalid page hits and sets the status code to 404.
-[x] Session information is stored in an encrypted MongoDB session database. Sessions expire after 1 hour.
+[x] All secrets, encryption keys, database passwords are stored in a .env file.
+
+[x] The .env file is NOT in your git repo.
 [x] Password is BCrypted in the MongoDB database.
 [x] Your site is hosted in a hosting service like Render.
-[x] All secrets, encryption keys, database passwords are stored in a .env file.
-[x] The .env file is NOT in your git repo.
+[x] A 404 page that "catches" all invalid page hits and that sets the status code to 404.
+[x] Session information is stored in an encrypted MongoDB session database. Sessions expire after 1 hour.
 
-100% complete.
+50/50
+
+Student Name: Veerpartap Kahlon
+Student Set: 1B
